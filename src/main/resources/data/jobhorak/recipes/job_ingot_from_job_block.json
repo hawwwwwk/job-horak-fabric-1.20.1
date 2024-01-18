@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "jobhorak:job_block"
+    }
+  ],
+  "result": {
+    "item": "jobhorak:job_ingot",
+    "count": 9
+  }
+}
