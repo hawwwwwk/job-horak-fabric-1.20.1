@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "jobhorak",
+	"version": "${version}",
+	"name": "Job Horak",
+	"description": "crunch",
+	"authors": [
+		"ethxn!"
+	],
+	"contact": {
+		"homepage": "www.ethxn.xyz",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/jobhorak/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.ethxn.jobhorak.JobHorak"
+		],
+		"fabric-datagen": [
+			"xyz.ethxn.jobhorak.JobHorakDataGenerator"
+		]
+	},
+	"mixins": [
+		"jobhorak.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
