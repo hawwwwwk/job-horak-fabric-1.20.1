@@ -18,6 +18,9 @@
 		"main": [
 			"xyz.ethxn.jobhorak.JobHorak"
 		],
+		"client": [
+			"xyz.ethxn.jobhorak.JobHorakClient"
+		],
 		"fabric-datagen": [
 			"xyz.ethxn.jobhorak.JobHorakDataGenerator"
 		]
