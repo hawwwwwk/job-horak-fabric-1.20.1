@@ -1,8 +1,10 @@
 {
   "item.jobhorak.job_ingot": "Job Ingot",
   "item.jobhorak.japple": "Japple",
+  "item.jobhorak.frozen_crude_oil_chunks": "Frozen Crude Oil Chunks",
 
   "block.jobhorak.job_block": "Block of Job",
+  "block.jobhorak.frozen_crude_oil_block": "Block of Frozen Crude Oil",
 
   "itemgroup.job": "JOB ! ! !"
 }

@@ -16,10 +16,11 @@ public class ModItemGroups {
             new Identifier(JobHorak.MOD_ID, "job"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.job"))
                     .icon(() -> new ItemStack(ModItems.JOB_INGOT)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.FROZEN_CRUDE_OIL_CHUNKS);
+                        entries.add(ModBlocks.FROZEN_CRUDE_OIL_BLOCK);
                         entries.add(ModItems.JOB_INGOT);
-                        entries.add(ModItems.JAPPLE);
-
                         entries.add(ModBlocks.JOB_BLOCK);
+                        entries.add(ModItems.JAPPLE);
                     }).build());
 
     public static void registerItemGroups() {

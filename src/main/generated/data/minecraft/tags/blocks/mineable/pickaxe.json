@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "jobhorak:job_block"
+    "jobhorak:job_block",
+    "jobhorak:frozen_crude_oil_block"
   ]
 }
