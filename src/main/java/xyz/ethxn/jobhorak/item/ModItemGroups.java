@@ -12,11 +12,12 @@ import xyz.ethxn.jobhorak.block.ModBlocks;
 
 public class ModItemGroups {
 
-    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(JobHorak.MOD_ID, "ruby"),
+    public static final ItemGroup JOB_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(JobHorak.MOD_ID, "job"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.job"))
                     .icon(() -> new ItemStack(ModItems.JOB_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.JOB_INGOT);
+                        entries.add(ModItems.JAPPLE);
 
                         entries.add(ModBlocks.JOB_BLOCK);
                     }).build());

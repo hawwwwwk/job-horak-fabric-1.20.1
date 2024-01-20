@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "jobhorak:job_block"
+      "item": "jobhorak:frozen_crude_oil_block"
     }
   ],
   "result": {
-    "item": "jobhorak:job_ingot",
-    "count": 9
+    "count": 9,
+    "item": "jobhorak:frozen_crude_oil_chunks"
   }
 }
